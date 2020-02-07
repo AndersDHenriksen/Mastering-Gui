@@ -4,7 +4,7 @@ from PyQt5 import QtGui as qtg
 from PyQt5 import QtCore as qtc
 
 
-class MainWindow(qtw.QWidget):
+class MainWindow(qtw.QMainWindow):
 
     def __init__(self):
         """MainWindow constructor"""
